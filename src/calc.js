@@ -3,11 +3,10 @@ export const calc = {
         return a + b;
     },
     sub: (a, b) => {
-        const tmp = a - b;
         return a - b;
     },
     mul: (a, b) => {
-        if (a == 0) return 0;
+        if (a === 0) return 0;
         return a * b;
     },
     div: (a, b) => {
